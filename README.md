@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg" width="200" alt="NestJS Logo" />
+          
+</p>
 
-## Getting Started
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/samuel-Fischer/ranking-Front" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/samuel-Fischer/ranking-Front" alt="Repo size">
+  <img src="https://img.shields.io/github/forks/samuel-Fischer/ranking-Front?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/stars/samuel-Fischer/ranking-Front?style=social" alt="Stars">
+</p>
 
-First, run the development server:
+# 🎾 Ranking Padel - Front-end (Parte 2/2)
+
+Este é o front-end do projeto **Ranking Padel**, desenvolvido com [Next.js](https://nextjs.org/) e [TypeScript](https://www.typescriptlang.org/), que consome a API criada com NestJS. A aplicação permite aos usuários visualizar e interagir com o sistema de ranking de partidas de padel.
+
+> 🔗 Este repositório é a **Parte 2/2** do projeto completo. [A Parte 1 (back-end)](https://github.com/samuel-Fischer/ranking-Back) está disponível separadamente.
+
+---
+
+## 📝 Artigo sobre o projeto
+
+Escrevi um artigo no Medium explicando o processo de desenvolvimento completo deste projeto:
+
+🔗 [Veja o artigo no Medium](https://medium.com/seu-link-aqui)
+
+---
+
+## 🚀 Tecnologias
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Axios
+- Lucide React
+
+---
+
+## ⚙️ Pré-requisitos
+
+- [PNPM](https://pnpm.io/installation) ou [NPM](https://www.npmjs.com/)
+- [Node.js](https://nodejs.org/)
+- Back-end do projeto em execução ([ranking-Back](https://github.com/samuel-Fischer/ranking-Back))
+
+---
+
+## 🧪 Como rodar o projeto
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# 1. Clone o repositório
+git clone https://github.com/samuel-Fischer/ranking-Front.git
+
+# 2. Acesse a pasta do projeto
+cd ranking-Front
+
+# 3. Instale as dependências
+pnpm install
+
+# 4. Rode o projeto
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> A aplicação estará disponível por padrão em: `http://localhost:3001`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Funcionalidades
 
-## Learn More
+- 👤 Perfil de usuário
+- 🎮 Tela de login integrada ao back-end
+- 📈 Visualização de ranking e histórico de partidas
+- 📡 Comunicação com API protegida por autenticação JWT
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📎 Parte 1/2
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+O back-end está disponível no repositório:  
+🔗 `https://github.com/samuel-Fischer/ranking-Back`
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🏷️ Tags
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+`nextjs` `react` `typescript` `tailwindcss` `padel` `ranking`
+
+---
