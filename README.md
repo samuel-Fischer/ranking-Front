@@ -22,7 +22,7 @@ Este é o front-end do projeto **Ranking Padel**, desenvolvido com [Next.js](htt
 
 Escrevi um artigo no Medium explicando o processo de desenvolvimento completo deste projeto:
 
-🔗 [Veja o artigo no Medium](https://medium.com/seu-link-aqui)
+🔗 [Veja o artigo no Medium](https://medium.com/@samuelsenacrs/ranking-padel-sistema-de-gerenciamento-de-ranking-41a1c22e0bbd)
 
 ---
 
