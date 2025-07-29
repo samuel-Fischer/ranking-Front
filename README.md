@@ -10,23 +10,23 @@
   <img src="https://img.shields.io/github/stars/samuel-Fischer/ranking-Front?style=social" alt="Stars">
 </p>
 
-# 🎾 Ranking Padel - Front-end (Parte 2/2)
+# 🎾 Ranking Padel - Front-end (Part 2/2)
 
-Este é o front-end do projeto **Ranking Padel**, desenvolvido com [Next.js](https://nextjs.org/) e [TypeScript](https://www.typescriptlang.org/), que consome a API criada com NestJS. A aplicação permite aos usuários visualizar e interagir com o sistema de ranking de partidas de padel.
+This is the **front-end** of the **Ranking Padel** project, developed using [Next.js](https://nextjs.org/) and [TypeScript](https://www.typescriptlang.org/). It consumes the API built with NestJS. The application allows users to view and interact with a padel match ranking system.
 
-> 🔗 Este repositório é a **Parte 2/2** do projeto completo. [A Parte 1 (back-end)](https://github.com/samuel-Fischer/ranking-Back) está disponível separadamente.
-
----
-
-## 📝 Artigo sobre o projeto
-
-Escrevi um artigo no Medium explicando o processo de desenvolvimento completo deste projeto:
-
-🔗 [Veja o artigo no Medium](https://medium.com/@samuelsenacrs/ranking-padel-sistema-de-gerenciamento-de-ranking-41a1c22e0bbd)
+> 🔗 This repository is **Part 2/2** of the complete project. [Part 1 (back-end)](https://github.com/samuel-Fischer/ranking-Back) is available separately.
 
 ---
 
-## 🚀 Tecnologias
+## 📝 Project Article
+
+I wrote an article on Medium explaining the full development process of this project:
+
+🔗 [Read the article on Medium (Portuguese)](https://medium.com/@samuelsenacrs/ranking-padel-sistema-de-gerenciamento-de-ranking-41a1c22e0bbd)
+
+---
+
+## 🚀 Technologies
 
 - Next.js
 - React
@@ -37,46 +37,46 @@ Escrevi um artigo no Medium explicando o processo de desenvolvimento completo de
 
 ---
 
-## ⚙️ Pré-requisitos
+## ⚙️ Prerequisites
 
-- [PNPM](https://pnpm.io/installation) ou [NPM](https://www.npmjs.com/)
+- [PNPM](https://pnpm.io/installation) or [NPM](https://www.npmjs.com/)
 - [Node.js](https://nodejs.org/)
-- Back-end do projeto em execução ([ranking-Back](https://github.com/samuel-Fischer/ranking-Back))
+- Back-end service running ([ranking-Back](https://github.com/samuel-Fischer/ranking-Back))
 
 ---
 
-## 🧪 Como rodar o projeto
+## 🧪 How to Run the Project
 
 ```bash
-# 1. Clone o repositório
+# 1. Clone the repository
 git clone https://github.com/samuel-Fischer/ranking-Front.git
 
-# 2. Acesse a pasta do projeto
+# 2. Enter the project folder
 cd ranking-Front
 
-# 3. Instale as dependências
+# 3. Install dependencies
 pnpm install
 
-# 4. Rode o projeto
+# 4. Start the development server
 pnpm run dev
 ```
 
-> A aplicação estará disponível por padrão em: `http://localhost:3001`
+> By default, the app will be available at: `http://localhost:3001`
 
 ---
 
-## 🎯 Funcionalidades
+## 🎯 Features
 
-- 👤 Perfil de usuário
-- 🎮 Tela de login integrada ao back-end
-- 📈 Visualização de ranking e histórico de partidas
-- 📡 Comunicação com API protegida por autenticação JWT
+- 👤 User profile
+- 🎮 Login screen integrated with the back-end
+- 📈 View match rankings and history
+- 📡 API communication secured with JWT authentication
 
 ---
 
-## 📎 Parte 1/2
+## 📎 Part 1/2
 
-O back-end está disponível no repositório:  
+The back-end is available at:  
 🔗 `https://github.com/samuel-Fischer/ranking-Back`
 
 ---
